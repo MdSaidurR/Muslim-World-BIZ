@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Muslim World BIZ Official Website</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="image/mwbiz.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/timeline.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+<link rel="stylesheet" href="compact-gallery.css">
+  <style>
+  body, html {
+  height: 100%;
+  margin:0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #000000 !important;
+
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("image/wmtc/7.jpg");
+  min-height:70%;
+}
+
+
+.bgimg-2 {
+  background-image: url("image/wmtc/8.jpg");
+  min-height: 400px;
+}
+
+
+.bgimg-3 {
+  background-image: url("image/background/mad2.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position:absolute;
+  left: 0;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  color:red;
+ 
+  }
+
+
+.caption ul>li>h3{
+ color:red !important;
+ font-size:20px;
+
+
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #000f89;
+  font-weight:bold;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+.dot {
+  height:15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+hr.style1 {
+ height:2px; 
+   background-color:#FFFFFF;
+
+}
+
+.rtt{
+  color:white !important;
+}
+
+div.rtt-con{
+  text-align:center;
+  color:black;
+  font-size:16px !important;
+
+}
+div.rtt-fact{
+  text-align: center !important;
+ margin-top:70px !important;
+}
+
+.ml15 {
+  font-weight: 800;
+  font-size: 6em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center !important;
+  padding-top:40px;
+  padding-bottom: 40px;
+  color:blue;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+
+
+ </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <a href="index.html"><img class="img-fluid" src="image/mwbiz.png"   alt="" height="110" width="110"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <i class="fa fa-bars" style="font-size:40px; border: none; color:red"></i>
+  </button>
+         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+     
+       <li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+        ABOUT US
+      </a>
+      <div class="dropdown-menu">
+         <a class="dropdown-item" href="mwb-overview.html"> MWB Overview</a>
+        <a class="dropdown-item" href="founder.html">FOUNDER</a>
+        <a class="dropdown-item" href="organiser.html">ORGANISER</a>
+        
+        
+      </div>
+    </li> 
+
+
+     <li class="nav-item">
+        <a class="nav-link" href="exhibition-zone.html">EXHIBITION ZONE</a>
+      </li>
+    
+      <li class="nav-item active">
+        <a class="nav-link" href="conference-zone.html">CONFERENCE ZONE</a>
+      </li>
+
+  <li class="nav-item">
+        <a class="nav-link" href="award-ceremonies.html">AWARD CEREMONIES</a>
+   </li>
+    
+    <li class="nav-item">
+        <a class="nav-link" href="trade-visitors.html">VISITORS</a>
+    </li>
+   <li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+       EVENTS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="event-kit-2019.html" target="_blank">EVENT KIT 2019</a>
+         <a class="dropdown-item" href="accommodation.html">ACCOMMODATION</a>
+      </div>
+    </li> 
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+       MEDIA CENTRE
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="media-guid.html">MEDIA GUIDE</a>
+       
+        <a class="dropdown-item" href="media-registration.php"> MEDIA REGISTRATION  </a>
+       
+        <a class="dropdown-item" href="news.html">MWB IN THE PRESS</a>
+        <a class="dropdown-item" href="newsletter.php">NEWSLETTER </a>
+        <a class="dropdown-item" href="photo-gallery.php">PHOTO GALLERY</a>
+        
+      </div>
+    </li> 
+    
+     <li class="nav-item">
+        <a class="nav-link" href="contact.php">CONTACT US</a>
+      </li>
+    
+    
+    </ul>
+  </div> 
+    </nav><br><br><br>
+
+<div class="cover">
+ <img  class="img-fluid" src="image/wmtc/cover.jpg" alt="Nature">
+  <div class="caption">
+<div class="cover">
+<div class="row">
+  <div class="ohec">
+      <div class="col-md-12">
+        <h1 class="ml15">
+  <span class="word">COMING</span>
+  <span class="word">SOON </span>
+</h1>
+
+
+      </div>
+
+      <script>
+        anime.timeline({loop: true})
+  .add({
+    targets: '.ml15 .word',
+    scale: [14,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 800,
+    delay: function(el, i) {
+      return 800 * i;
+    }
+  }).add({
+    targets: '.ml15',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+      </script>
+    </div>
+   </div>
+ </div>
+   
+
+  </div>
+  
+  </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <div style="color: #000000;background-color:#F5F5F5;text-align:center;padding:50px 10px;text-align: justify;">
+  <h3 style="text-align:center;">WORLD MEDICAL TOURISM CONFERENCE</h3>
+   <hr class="style1">
+<p>Healthcare is one of the basic necessities which all nation need, besides shelter and education. Until and unless these three needs are sufficiently met one cannot speak of any kind of economic development. People often travel to satisfy these needs and especially for the healthcare sector there has been a new branch called medical tourism. While it is beneficial for patients to heal, it also is considered a reliable source of revenues for several countries. This conference discusses the way forward of this sector in terms of establishing sound infrastructure, diversifying the services offered and promoting them worldwide.</p>   
+  
+</div>
+
+  </div>
+ <div class="col-md-6">
+  <div style="color: #000000;background-color:white;text-align:center;padding:50px 10px;text-align: justify;">
+   <div class="row">
+    <div class="col-6">
+  <div class="rrt-fact" style="background:#F5F5F5;border-radius:25px;">
+  <div id="counter-con"> 
+    <center><p style="font-size:100px;color:#000f89;font-weight:bold;"> <span class="con-counter-value" data-count="89%"></span>%</p></center>
+     </div>
+     <div class="rtt-con">FOUND  TOPICS  RELEVANT </div>
+   </div>
+   </div>
+   <br>
+   <div class="col-6">
+   <div class="rrt-fact" style="background:#F5F5F5;border-radius:25px;">
+  <div id="counter-con"> 
+    <center><p style="font-size:100px;color:#000f89;font-weight:bold;"> <span class="con-counter-value" data-count="96"></span>%</p></center>
+     </div>
+     <div class="rtt-con">SATISFIED DELEGATES</div>
+   </div>
+    </div>
+    </div>
+     </div> 
+   </div>
+
+
+         <script type="text/javascript">
+    var a = 0;
+$(window).scroll(function() {
+
+  var oTop = $('#counter-con').offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() > oTop) {
+    $('.con-counter-value').each(function() {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 2000,
+          easing: 'swing',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });
+    });
+    a = 1;
+  }
+
+});
+    </script>
+</div>
+
+<div class="bgimg-2">
+<div class="caption">
+  
+</div>
+</div>
+
+<div class="row">
+
+   <div class="col-md-6">
+     
+     <div style="background-color:#F5F5F5;padding:30px 10px;text-align: justify;">
+    <section class="gallery-block compact-gallery">
+      
+            <div class="row no-gutters">
+                <div class="col-4 item pad zoom-on-hover">
+                    <a class="lightbox" href="image/wmtc/1.jpg">
+                        <img class="img-fluid image" src="image/wmtc/1.jpg">
+                        
+                    </a>
+                </div>
+                <div class="col-4  pad1 item zoom-on-hover">
+                    <a class="lightbox" href="image/wmtc/2.jpg">
+                        <img class="img-fluid image" src="image/wmtc/2.jpg">
+                       
+                    </a>
+                </div>
+                <div class="col-4 pad item zoom-on-hover">
+                    <a class="lightbox" href="image/wmtc/3.jpg">
+                  <img class="img-fluid image" src="image/wmtc/3.jpg">
+                        
+                    </a>
+                </div>
+                <div class="col-4  item pad1 zoom-on-hover">
+                    <a class="lightbox" href="image/wmtc/4.jpg">
+                        <img class="img-fluid image" src="image/wmtc/4.jpg">
+                       
+                        </a>
+                    </div>
+                
+               
+                
+                <div class="col-4  pad item zoom-on-hover">
+                    <a class="lightbox" href="image/wmtc/5.jpg">
+                        <img class="img-fluid image" src="image/wmtc/5.jpg">
+                        
+                    </a>
+                </div>
+                <div class="col-4 item zoom-on-hover">
+                    <a class="lightbox" href="image/wmtc/6.jpg">
+                        <img class="img-fluid image" src="image/wmtc/6.jpg">
+                        
+                    </a>
+                </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run('.compact-gallery', { animation: 'slideIn'});
+    </script>  
+            </div>
+  
+        
+    </section>
+    </div> 
+   </div>
+
+
+  <div class="col-md-6">
+  <div style="position:relative;">
+  <div style="color:#000000;background-color:#F5F5F5;text-align:center;padding:50px 10px;text-align: justify;">
+     <h3 style="text-align:center;">OBJECTIVE</h3>
+      <hr class="style1">
+<ol>
+  <li>To increase the visibility of medical tourism and highlight its importance.</li>
+<li> To promote the cost effectiveness and quality of the services by certain countries.</li>
+ <li>To discuss the possible ways through which medical tourism can be developed.</li>
+<li> To facilitate travel and stay procedures by engaging other stakeholders.</li>
+<li>To contribute to the positive impact of the Muslim World Biz.</li>
+
+    </ol>
+   
+  </div>
+</div>  
+
+  </div>
+
+  
+  </div>
+
+
+
+<div class="bgimg-3">  
+</div>
+
+
+ 
+
+
+
+<button onclick="topFunction()" id="myBtn"><i class="up"></i></button>
+
+<div class="summary">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="vertical-menu">
+   <p>ABOUT US </p>
+    <a href="mwb-overview.html"> MWB overview</a>
+    <a href="founder.html"> Founder</a>
+    <a href="organiser.html"> Organiser</a>
+   
+    
+    
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="vertical-menu">
+        <p> REGISTER AS</p>
+        <a href="exhibitor-registration.php">Exhibitor</a>
+        <a href="delegate-registration.html">Conference Delegate</a>
+        <a href="trade-buyer.php">Trade Buyer</a>
+        <a href="visitor-pre-registration.php">Public Visitor</a>
+        <a href="media-registration.php">Media Representative </a>
+       
+      </div>
+    </div>
+
+     <div class="col-md-3">
+       <div class="vertical-menu">
+         <p> CONFERENCES ZONE</p>
+        <a  href="rtt.html">Round Table Talk</a>
+        <a  href="mwws.html">Muslim World Women's Summit</a>
+    <a href="oic-arab-asia-te.html">OIC Arab-asia Trade & Economic</a>
+    <a href="ohec.html">OIC Higher Education Conference</a>
+         <a  href="witc.html">World Islamic Tourism Conference</a> 
+       </div>
+    </div>
+
+     <div class="col-md-3">
+      <div class="vertical-menu">
+        <p> AWARD CEREMONIES</p>
+        <a  href="jewels.html">Jewels Of The Muslim World</a>
+        <a  href="rania.html">Muslim World Rania Award</a>
+        <a  href="mweda-award.php">MWEDA</a>
+          <p>  VISITORS</p>
+        <a  href="visitor-pre-registration.php"> Visitor Pre-registration</a>
+      </div>
+    </div>
+
+     <div class="col-md-2">
+      <div class="vertical-menu">
+         <p> MEDIA CENTRE</p>
+        <a  href="media-registration.php">Media Registration </a>
+        <a  href="media-guid.html">Media Guide</a>
+        <a  href="news.html">MWB In The Press</a>
+        <a  href="newsletter.php">Newsletter</a>
+        <a  href="contact.php">Contact</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer class="container-fluid">
+    <div class="row no-gutters">
+
+<div class="col-md-1"><p class="address">OFFICE ADDRESS<span style='font-size:20px;'>&#58;</span></p></div>
+<div class="col-md-5">
+  <div class="copy">
+  <p> <span style="font-size:17px;">Suite 1A, 24th Floor, Menara TH Selborn</span><br>
+153 Jalan Tun Razak, 50400, Kuala Lumpur, Malaysia<br>
+Call<span style='font-size:20px;'>&#58;</span>&nbsp+603 2681 0037, &nbsp  Email<span style='font-size:20px;'>&#58;</span>&nbsp info@oictoday.biz</p>
+      
+ </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="copy">
+  <p><span style="font-size:17px;">Official Website of Muslim World BIZ</span><br>
+&copy; 2019 muslimworldbiz.com All Rights Reserved.</p>
+ </div>
+  </div>
+  
+
+      <div class="col-md-2">
+
+   <ul class="list-inline social-buttons">
+                
+                <li class="list-inline-item">
+        <a href="https://www.facebook.com/oicmuslimworldbiz/"  target="_blank" > <i class="fa fa-facebook"></i></a>
+                </li>
+
+                <li class="list-inline-item">
+        <a href="https://twitter.com/@muslimworldbiz"  target="_blank" >  <i class="fa fa-twitter"></i></a>
+                </li>
+
+                <li class="list-inline-item">
+        <a href="https://www.instagram.com/muslimworldbiz/"  target="_blank" ><i class="fa fa-instagram"></i></a>
+                </li>
+                 <li class="list-inline-item">
+                  <a href="https://www.youtube.com/channel/UCvoXZNPLl5iaMTWzPwltBYg"  target="_blank" > <i class="fa fa-youtube"></i></a>
+                </li>
+              </ul>
+
+      </div>   
+ 
+ </div>
+ 
+</footer>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".nav a, footer a[href='#rania-award']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+    <script src="js/new/agency.min.js"></script>
+
+</body>
+</html>

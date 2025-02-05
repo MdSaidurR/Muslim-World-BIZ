@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Muslim World BIZ Official Website</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="image/mwbiz.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+ <link rel="stylesheet" href="css/timeline.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+<link rel="stylesheet" href="compact-gallery.css">
+  <style>
+  body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #000000 !important;
+}
+
+ .bgimg-1 ,.bgimg-2, .bgimg-3,.bgimg-4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("image/visitor/3.jpg");
+  min-height:60%;
+   
+}
+
+
+.bgimg-2 {
+  background-image: url("image/visitor/4.jpg");
+  min-height: 400px;
+}
+
+
+.bgimg-3 {
+  background-image: url("image/visitor/5.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("image/visitor/6.jpg");
+  min-height: 400px;
+}
+
+
+.caption {
+  position:absolute;
+  left: 0;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+ 
+  }
+
+
+.caption ul>li>h3{
+ color:#000f89 !important;
+ font-size:20px;
+
+
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3,h4 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #000f89;
+  font-weight:bold;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+
+
+hr.style1 {
+ height:2px; 
+   background-color:#FFFFFF;
+
+}
+
+.should-visit1{
+  min-height:130px;
+     background-color:#F5F5F5;
+     border:2px solid #000f89;
+    padding-top:10px;
+    font-size:16px;
+     color: #000f89;
+     text-align:center;
+     font-weight:bold;
+
+    }
+
+
+@media screen and (max-width: 600px) {
+ .should-visit1 {
+    max-height: 100px;
+    font-size:10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .should-visit1 img {
+    max-height: 90px;
+  
+  }
+}
+
+
+.should-visit1:hover{
+ transform: perspective(1000px) rotate(0deg) skew(0deg) translate(3px, -3px);
+
+box-shadow: -10px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+.why-visit:hover{
+ transform: perspective(1000px) rotate(0deg) skew(0deg) translate(3px, -3px);
+
+box-shadow: -10px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+
+.why-visit {
+  min-height:70px;
+ 
+  border:1px solid #000f89;
+  border-radius:10px;
+  text-align:center !important;
+  font-size:13px;
+   font-weight:bold;
+   padding-top:10px;
+  color:#000f89 !important;
+}
+
+.why-visit:hover{
+  background-color: #000f89;
+  color:white !important;
+  border:1px solid red;
+}
+
+
+@media screen and (max-width: 600px) {
+ .why-visit  {
+   font-size:12px;
+  
+  }
+}
+
+
+
+
+.visitor-confer {
+  min-height:70px;
+   border:1px solid #000f89;
+  border-radius:10px;
+  text-align:center !important;
+  font-size:13px;
+   font-weight:bold;
+   padding-top:10px;
+   color:#000f89 !important;
+
+}
+
+.visitor-confer:hover{
+  background-color: #000f89;
+  color:white !important;
+  border:1px solid red;
+}
+
+@media screen and (max-width: 600px) {
+ .visitor-confer  {
+   font-size:12px !important;
+  
+  }
+}
+
+
+.panel {
+      border: 1px solid red; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #A9CCE3;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: white !important;
+      background-color: red !important;
+      padding:15px;
+      
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+
+  .panel-body{
+    text-align:justify;
+    padding: 10px !important;
+    background: #F5F5F5;
+  }
+
+@media screen and (min-width: 1200px) {
+  .ramcel-media{
+   min-height:416px;
+  }
+}
+
+
+
+    
+  .visitor-confer:hover{
+ transform: perspective(1000px) rotate(0deg) skew(0deg) translate(3px, -3px);
+
+box-shadow: -10px 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+ </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <a href="index.html"><img class="img-fluid" src="image/mwbiz.png"   alt="" height="110" width="110"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <i class="fa fa-bars" style="font-size:40px; border: none; color:red"></i>
+  </button>
+         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+     
+       <li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+        ABOUT US
+      </a>
+      <div class="dropdown-menu">
+         <a class="dropdown-item active" href="mwb-overview.html"> MWB Overview</a>
+        <a class="dropdown-item" href="founder.html">FOUNDER</a>
+       <a class="dropdown-item" href="organiser.html">ORGANISER</a>
+        
+      </div>
+    </li> 
+
+
+     <li class="nav-item">
+        <a class="nav-link" href="exhibition-zone.html">EXHIBITION ZONE</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" href="conference-zone.html">CONFERENCE ZONE</a>
+      </li>
+
+  <li class="nav-item">
+        <a class="nav-link" href="award-ceremonies.html">AWARD CEREMONIES</a>
+   </li>
+   
+    <li class="nav-item active">
+        <a class="nav-link" href="trade-visitors.html">VISITORS</a>
+    </li>
+       <li class="nav-item">
+        <a class="nav-link" href="hotels.html">HOTELS</a>
+  </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+       MEDIA CENTRE
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="media-guid.html">MEDIA GUIDE</a>
+        <a class="dropdown-item" href="media-registration.php"> MEDIA REGISTRATION  </a>
+        <a class="dropdown-item" href="news.html">MWB IN THE PRESS</a>
+        <a class="dropdown-item" href="newsletter.php">NEWSLETTER </a>
+        <a class="dropdown-item" href="photo-gallery.php">PHOTO GALLERY</a>
+        
+      </div>
+    </li> 
+    
+     <li class="nav-item">
+        <a class="nav-link" href="contact.php">CONTACT US</a>
+      </li>
+    
+    
+    </ul>
+  </div> 
+    </nav><br><br><br>
+
+<div class="cover">
+ <img  class="img-fluid" src="image/background/trade-visitor.jpg" alt="trade">
+</div>
+<div class="row">
+  
+  <div class="col-md-6">
+   <div style="color:#000000;background-color:#F5F5F5;text-align:center;padding:50px 20px;text-align: justify;">
+  <h3 style="text-align:center;">WHO SHOULD VISIT?</h3>
+   <hr class="style1">
+
+  <p>Because of its comprehensive approach that brings together successful business owners and highly trained experts from a wide range of industries across many countries around the world, the Muslim World Biz welcomes the participation of every individual or organisation that will find great benefits for current and future ventures. We expect you to register yourself if you are interested to benefit from any of the activities throughout the event. </p>
+</div>
+  </div>
+  <div class="col-md-6">
+      <section class="gallery-block compact-gallery" style="padding-top:10px;">
+      
+            <div class="row no-gutters">
+                <div class="col-4 item pad zoom-on-hover">
+                    <a class="lightbox" href="image/visitor/9.jpg">
+                        <img class="img-fluid image" src="image/visitor/9.jpg">
+                        
+                    </a>
+                </div>
+                <div class="col-4  pad1 item zoom-on-hover">
+                    <a class="lightbox" href="image/visitor/1.jpg">
+                        <img class="img-fluid image" src="image/visitor/1.jpg">
+                       
+                    </a>
+                </div>
+                <div class="col-4 pad item zoom-on-hover">
+                    <a class="lightbox" href="image/visitor/2.jpg">
+                        <img class="img-fluid image" src="image/visitor/2.jpg">
+                        
+                    </a>
+                </div>
+
+             <div class="col-4 item zoom-on-hover">
+                    <a class="lightbox" href="image/visitor/6.jpg">
+                        <img class="img-fluid image" src="image/visitor/6.jpg">
+                        
+                    </a>
+                </div>
+
+             <div class="col-4 item zoom-on-hover">
+                    <a class="lightbox" href="image/visitor/7.jpg">
+                        <img class="img-fluid image" src="image/visitor/7.jpg">
+                        
+                    </a>
+                </div>
+
+                 <div class="col-4 item zoom-on-hover">
+                    <a class="lightbox" href="image/visitor/8.jpg">
+                        <img class="img-fluid image" src="image/visitor/8.jpg">
+                        
+                    </a>
+                </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run('.compact-gallery', { animation: 'slideIn'});
+    </script>  
+            </div>
+  
+        
+    </section>
+
+  </div>
+</div>
+
+
+
+
+<div class="bgimg-1">
+
+</div>
+
+<div class="row">
+<div class="col-md-1"></div>
+  <div class="col-md-10">
+  <div style="position:relative;">
+  <div style="color:#000000; text-align:center;padding:50px 20px;text-align: justify;">
+    <div style="padding-right:15px; padding-left:15px;">
+     <h4 style="text-align:center;">YOU MUST CONSIDER VISITING THE 9TH MUSLIM WORLD BIZ IF YOU ARE</h4>
+      <hr class="style1">
+       <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-4 ">
+          <div class="should-visit1">
+            <img  class="img-fluid" style="max-height:134px;" src="image/icon/1.png">
+          
+            ENTREPRENEUR
+          
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="should-visit1">
+          <img  class="img-fluid" style="max-height:134px;" src="image/icon/2.png">
+            INVESTOR
+          </div>
+        </div>
+  <div class="col-4">
+    <div class="should-visit1">
+          <img  class="img-fluid" style="max-height:134px;" src="image/icon/3.svg">
+          SUPPLIER
+          </div>  
+        </div>
+      </div>
+
+    </div>
+<div class="col-md-6">
+      <div class="row">
+        <div class="col-4 ">
+          <div class="should-visit1">
+      <img  class="img-fluid" style="max-height:134px;" src="image/icon/4.png">
+            RETAILOR 
+          </div>
+          
+        </div>
+        <div class="col-4">
+          <div class="should-visit1">
+      <img  class="img-fluid" style="max-height:134px;" src="image/icon/5.png">
+            ACADEMICIAN
+          </div>
+        </div>
+  <div class="col-4">
+        <div class="should-visit1">
+      <img  class="img-fluid" style="max-height:105px;" src="image/icon/6n.png"><br>
+          BUSINESS OWNER  
+          </div>  
+        </div>
+      </div>
+
+    </div>
+  </div><br>
+  <div class="row">
+     <div class="col-md-1"></div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-4 ">
+          <div class="should-visit1">
+        <img  class="img-fluid" style="max-height:134px;" src="image/icon/7.png">
+          EXECUTIVE
+          </div>
+          
+        </div>
+        <div class="col-4">
+          <div class="should-visit1">
+         <img  class="img-fluid" style="max-height:134px;" src="image/icon/8.png">
+            MARKETER
+          </div>
+        </div>
+  <div class="col-4">
+        <div class="should-visit1">
+    <img  class="img-fluid" style="max-height:134px;" src="image/icon/9.png">
+          STRATEGIST  
+          </div>  
+        </div>
+      </div>
+
+    </div>
+<div class="col-md-5">
+      <div class="row">
+        <div class="col-5 ">
+          <div class="should-visit1">
+      <img  class="img-fluid" style="max-height:134px;" src="image/icon/10.png"><br>
+           BUSINESS AGENT 
+          </div>
+          
+        </div>
+        <div class="col-5">
+          <div class="should-visit1">
+     <img  class="img-fluid" style="min-height:134px;" src="image/icon/11.png">
+           MANUFACTURER   
+          </div>
+        </div>
+        
+        <div class="col-2"></div>
+      </div>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-md-1"></div>
+</div>
+
+<div class="bgimg-2">
+
+</div>
+<div class="row">
+
+  <div class="col-md-6">
+  <div style="position:relative;">
+  <div style="color:#000000;text-align:center;padding:50px 20px;text-align: justify;">
+    <div style="padding-right:5px; padding-left:5px;">
+     <h3 style="text-align:center;">WHY VISIT?</h3>
+     <h5 style="text-align: center;">You must visit our exhibition zone if you are looking for</h5>
+      <hr class="style1">
+    <div class="row">
+      <div class="col-4">
+        <div class="why-visit">
+          RELIABLE<br> SUPPLIERS 
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="why-visit">
+          EFFICIENT <br>DISTRIBUTORS
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="why-visit">
+         INTERNATIONAL <br>PARTNERS 
+        </div>
+      </div>
+
+    </div><br>
+
+    <div class="row">
+      <div class="col-4">
+        <div class="why-visit">
+         COMMITTED<br>INVESTORS 
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="why-visit">
+         HALAL <br>PRODUCTS
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="why-visit">
+        CERTIFICATION <br>BODIES
+        </div>
+      </div>
+
+    </div><br>
+    <div class="row">
+    <div class="col-4">
+        <div class="why-visit">
+        BUSINESS<br>AGENTS
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="why-visit">
+      NEW <br>TECHNOLOGIES
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="why-visit" style="padding-top:20px;">
+       BRANDING
+        </div>
+      </div>
+
+     </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <div class="col-md-6">
+  <div style="position:relative;">
+  <div style="text-align:center;padding:50px 5px;text-align: justify;">
+    <div style="padding-right:5px; padding-left:5px;"><br>
+     <h3 style="text-align:center;">AT THE CONFERENCE ZONE YOU WILL</h3>
+      <hr class="style1">
+<div class="row">
+  <div class="col-4">
+        <div class="visitor-confer">
+       INTERACT WITH <br>INDUSTRY EXPERTS
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="visitor-confer">
+      ACQUIRE<br>NEW KNOWLEDGE
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="visitor-confer">
+       FORMULATE ENTREPRENEURSHIP PLANS
+        </div>
+      </div>
+</div><br>
+
+<div class="row">
+  <div class="col-4">
+        <div class="visitor-confer">
+       INVOLVE IN <br> WOMEN EMPOWERMENT
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="visitor-confer">
+       MEET ACCOMPLISHED LEADERS
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="visitor-confer">
+       DISCUSS FUTURE STRATEGIES
+        </div>
+      </div>
+</div><br>
+<div class="row">
+  <div class="col-4">
+        <div class="visitor-confer">
+       CONNECT WITH NEW PEOPLE
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="visitor-confer">
+      EXPRESS YOUR PERSONAL VIEWS
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="visitor-confer"  >
+      <p style="padding-top:15px;">GET MARKET UPDATES</p>
+        </div>
+      </div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div class="bgimg-3">
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+<div style="position:relative;">
+  <div style="text-align:center;padding:40px 5px; text-align: justify;">
+    <div style="padding-right:15px; padding-left:15px;"><br>
+     <h3 style="text-align:center;">VENUE</h3>
+      <h4 style="text-align:center;">KUALA LUMPUR CONVENTION CENTRE</h4>
+      <hr class="style1">
+  <p>Situated at the heart of Kuala Lumpur’s Central Business District, the Kuala Lumpur Convention Centre is the city’s most technologically–advanced, purpose-built facility for international, regional and local conventions, tradeshows, public exhibitions, entertainment and even, intimate private functions. The centre also prides itself on having a professional team to ensure the delivery of world-class services and top-notch culinary offerings.</p>
+
+<p>The centre is one of the components within PETRONAS’ distinctive Kuala Lumpur City Centre (KLCC) development. Designed as a unique “city within a city”, the 100-acre development boasts a lush 50-acre landscaped KLCC Park, the signature PETRONAS Twin Towers, Asy’Syakirin Mosque, a six-storey building of retail therapy (Suria KLCC), sustenance for the mind (PETROSAINS interactive science discovery centre) and a refuge for art enthusiasts (Galeri PETRONAS).</p>
+<p>By choosing Kuala Lumpur Convention Centre to host the Muslim World Biz, the organisers aim to benefit from all the features the centre has to offer for the benefits of all the participants whether they were exhibitors, speakers, delegates, trade buyers or public visitors.</p>
+
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div style="position:relative;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7751730502555!2d101.71108441379519!3d3.1538968977035498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37d37bd3fcff%3A0x7706359b57f73cb7!2sKuala+Lumpur+Convention+Centre!5e0!3m2!1sen!2smy!4v1554901946320!5m2!1sen!2smy" width="600" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+   
+    </div>
+  </div>
+</div>
+
+<div class="bgimg-4">
+
+</div>
+
+<div style="position:relative;">
+  <div style="text-align:center;padding:40px 5px; text-align:center;">
+    <div style="padding-right:15px; padding-left:15px;"><br>
+     <h3 style="text-align:center;">TRAVELLING TO 9<sup>th</sup> MWB 2019</h3><br><br>
+       <div class="row">
+        <div class="col-md-4">
+              <div class="panel panel-default text-center">
+
+        <div class="panel-heading">
+          <h3>BY ROAD</h3>
+        </div>
+
+        <div class="panel-body ramcel-media" >
+         
+  <p>If you are in a taxi or a chauffeured car, approach the Centre along Jalan Pinang and turn left into the Main Entrance (second turn after the Mandarin Oriental Hotel) for drop off.<br>
+If you are driving, here are your parking options:
+Take the first left after the Mandarin Oriental Hotel from Jalan Pinang up the ramp to access the car park at the Centre’s basement.
+<p>Park at the KLCC Suria car park and exit to the Concourse Level Centre Court. Make your way past Cold Storage to the Guardian Pharmacy where there is a covered walkway through to the Centre. Take the elevator to the Ground Level where you will be directed to the Registration area.</p>
+
+        </div>
+      </div>
+  </div>
+
+   <div class="col-md-4">
+              <div class="panel panel-default text-center">
+
+        <div class="panel-heading">
+          <h3>BY TRAIN</h3>
+        </div>
+
+        <div class="panel-body ramcel-media">
+        <p>Take the Light Rail Transit (LRT), Kelana Jaya Line and disembark at the KLCC Station. Turn left after exiting the turnstiles and walk through the Suria KLCC shopping centre Concourse level to the Centre Court. Turn left and make your way past Cold Storage to the Guardian Pharmacy where there is a covered walkway through to the Centre. Take the elevator to the Ground Floor where you will be directed to the Registration area.</p>
+
+        </div>
+      </div>
+  </div>
+
+   <div class="col-md-4">
+              <div class="panel panel-default text-center">
+
+        <div class="panel-heading">
+          <h3>ON FOOT</h3>
+        </div>
+
+        <div class="panel-body ramcel-media">
+        <p>From the Suria KLCC shopping centre’s Concourse Level Centre Court, make your way past Cold Storage to the Guardian Pharmacy where there is a covered walkway through to the Centre. Take the elevator to the Ground Level of the Centre where you will be directed to the Registration area.<br>
+The Centre is also accessible for delegates and visitors via the air-conditioned Bukit Bintang-KLCC Link Bridge. The link bridge features entrance/exit at the Pavilion Mall (Bukit Bintang), Wisma Cosway, Jalan Perak and the Impiana KLCC Hotel with convenient exit escalators and staircases) located at the main entrance to the Centre. This air-conditioned link allows delegates and visitors to travel conveniently, comfortably and safely on foot.</p> 
+
+
+        </div>
+      </div>
+  </div>
+
+
+
+
+       </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<button onclick="topFunction()" id="myBtn"><i class="up"></i></button>
+
+<div class="summary">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="vertical-menu">
+   <p>ABOUT US </p>
+    <a href="mwb-overview.html"> MWB overview</a>
+    <a href="founder.html"> Founder</a>
+   <a href="organiser.html"> Organiser</a>
+   
+    
+    
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="vertical-menu">
+        <p> REGISTER AS</p>
+        <a href="exhibitor-registration.php">Exhibitor</a>
+        <a href="delegate-registration.html">Conference Delegate</a>
+        <a href="trade-buyer.php">Trade Buyer</a>
+        <a href="visitor-pre-registration.php">Public Visitor</a>
+        <a href="media-registration.php">Media Representative </a>
+       
+      </div>
+    </div>
+
+     <div class="col-md-3">
+       <div class="vertical-menu">
+         <p> CONFERENCES ZONE</p>
+        <a  href="rtt.html">Round Table Talk</a>
+        <a  href="mwws.html">Muslim World Women's Summit</a>
+    <a href="oic-arab-asia-te.html">OIC Arab-asia Trade & Economic</a>
+    <a href="ohec.html">OIC Higher Education Conference</a>
+         <a  href="witc.html">World Islamic Tourism Conference</a> 
+       </div>
+    </div>
+
+     <div class="col-md-3">
+      <div class="vertical-menu">
+        <p> AWARD CEREMONIES</p>
+        <a  href="jewels.html">Jewels Of The Muslim World</a>
+        <a  href="rania.html">Muslim World Rania Award</a>
+        <a  href="mweda-award.php">MWEDA</a>
+          <p>  VISITORS</p>
+        <a  href="visitor-pre-registration.php"> Visitor Pre-registration</a>
+      </div>
+    </div>
+
+     <div class="col-md-2">
+      <div class="vertical-menu">
+         <p> MEDIA CENTRE</p>
+        <a  href="media-registration.php">Media Registration </a>
+        <a  href="media-guid.html">Media Guide</a>
+        <a  href="news.html">MWB In The Press</a>
+        <a  href="newsletter.php">Newsletter</a>
+        <a  href="contact.php">Contact</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer class="container-fluid">
+    <div class="row no-gutters">
+
+<div class="col-md-1"><p class="address">OFFICE ADDRESS<span style='font-size:20px;'>&#58;</span></p></div>
+<div class="col-md-5">
+  <div class="copy">
+  <p> <span style="font-size:17px;">Suite 1A, 24th Floor, Menara TH Selborn</span><br>
+153 Jalan Tun Razak, 50400, Kuala Lumpur, Malaysia<br>
+Call<span style='font-size:20px;'>&#58;</span>&nbsp+603 2681 0037, &nbsp  Email<span style='font-size:20px;'>&#58;</span>&nbsp info@oictoday.biz</p>
+      
+ </div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="copy">
+  <p><span style="font-size:17px;">Official Website of Muslim World BIZ</span><br>
+&copy; 2019 muslimworldbiz.com All Rights Reserved.</p>
+ </div>
+  </div>
+  
+
+      <div class="col-md-2">
+
+   <ul class="list-inline social-buttons">
+                
+                <li class="list-inline-item">
+        <a href="https://www.facebook.com/oicmuslimworldbiz/"  target="_blank" > <i class="fa fa-facebook"></i></a>
+                </li>
+
+                <li class="list-inline-item">
+        <a href="https://twitter.com/@muslimworldbiz"  target="_blank" >  <i class="fa fa-twitter"></i></a>
+                </li>
+
+                <li class="list-inline-item">
+        <a href="https://www.instagram.com/muslimworldbiz/"  target="_blank" ><i class="fa fa-instagram"></i></a>
+                </li>
+                 <li class="list-inline-item">
+                  <a href="https://www.youtube.com/channel/UCvoXZNPLl5iaMTWzPwltBYg"  target="_blank" > <i class="fa fa-youtube"></i></a>
+                </li>
+              </ul>
+
+      </div>   
+ 
+ </div>
+ 
+</footer>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".nav a, footer a[href='#rania-award']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+    <script src="js/new/agency.min.js"></script>
+
+</body>
+</html>

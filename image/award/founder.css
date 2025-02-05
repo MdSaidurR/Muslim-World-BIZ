@@ -1,0 +1,328 @@
+ .how-it-works {
+  padding-bottom: 15px;
+  width: 100%;
+  float:center !important;
+   position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+ background: rgba(0,0,0,0.8);
+}
+
+.section-title{
+  color:white !important;
+}
+
+.dato-intro_back{
+  position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  color:white;
+  padding-top:30px;
+
+}
+
+.board{
+  /*width: 75%;
+  margin: 60px auto;
+  margin-bottom: 0;
+  box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
+}
+.board .nav-tabs {
+  position: relative;
+  /* border-bottom: 0; */
+  /* width: 80%; */
+  margin: 20px auto;
+  margin-bottom: 0;
+  box-sizing: border-box;
+  float:center !important;
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+.board .nav-tabs {
+  left:100px;
+ }
+}
+
+
+
+
+
+.board > div.board-inner > .nav-tabs {
+  border: red;
+  text-align: center !important;
+
+}
+
+div.narrow{
+  width: 100%;
+  margin: 10px auto;
+  font-size: 16px;
+  text-align: justify;
+   background: rgba(128,128,128,0.6);
+   padding: 10px;
+  border-radius: 25px;
+  color:white;
+  
+}
+
+
+
+
+.liner{
+  height: 2px;
+  background: #ddd;
+  position: absolute;
+  width: 60%;
+  margin: 0 auto;
+  left: 0;
+  right:455px;
+  top: 50%;
+  z-index: 1;
+  text-align: center;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555555;
+  cursor: default;
+  /* background-color: #ffffff; */
+  border: 0;
+  border-bottom-color: transparent;
+  outline: 0;
+}
+
+span.round-tabs{
+  width: 150px;
+  height: 150px;
+  line-height: 70px;
+  display: inline-block;
+  border-radius: 100px;
+  background: white;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  font-size: 25px;
+}
+
+
+
+span.round-tabs.one{
+ padding-top: 1.9vw;
+  padding-left: 1.8vw;
+ 
+}
+
+li.active span.round-tabs.one, li.active span.round-tabs.two, li.active span.round-tabs.three, li.active span.round-tabs.four, li.active span.round-tabs.five {
+  background: #69cb95 !important;
+  border: 2px solid #69cb95;
+  color: #fff;
+}
+
+span.round-tabs.two{
+  border: 2px solid #ddd;
+   padding-top: 1.9vw;
+  padding-left: 1vw;
+}
+
+span.round-tabs.three{
+  border: 2px solid #ddd;
+  color: #ddd;
+  padding-top: 1.9vw;
+  padding-left: 1vw;
+
+}
+
+
+
+.nav-tabs > li.active > a span.round-tabs{
+  background: #fafafa;
+}
+.nav-tabs > li {
+  width: 20%;
+}
+
+ /* straight line */
+
+.nav-tabs > li a{
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 100%;
+  padding: 0;
+}
+
+.nav-tabs > li a:hover{
+  background: transparent;
+}
+
+.tab-content{
+}
+.tab-pane{
+  position: relative;
+  padding-top: 50px;
+}
+
+.btn-outline-rounded{
+  padding: 10px 40px;
+  margin: 20px 0;
+  border: 2px solid transparent;
+  border-radius: 25px;
+}
+
+.btn.green{
+  background-color:#69cb95;
+  /*border: 2px solid #5cb85c;*/
+  color: #ffffff;
+}
+
+@media( max-width : 585px ){
+
+  .board {
+    width: 90%;
+    height:auto !important;
+  }
+  span.round-tabs {
+    font-size:16px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .tab-content .head{
+    font-size:20px;
+  }
+  .nav-tabs > li a {
+    width: 50px;
+    height: 50px;
+
+  }
+
+  li.active:after {
+    content: " ";
+    position: absolute;
+    left: 60%;
+  }
+
+  .btn-outline-rounded {
+    padding:12px 20px;
+  }
+}
+
+
+@media( min-width : 1200px ){
+
+  .board-inner .nav-tabs {
+    width: 100%;
+    margin-left:280px ;
+  }
+
+.board-inner .nav-tabs{
+  text-align: center !important;
+  
+}
+
+hr.style1 {
+ height:2px; 
+   background-color:#FFFFFF;
+   width:35%;
+}
+
+
+.navbar-nav . li  {
+  
+   padding: 2px 0.3vw;
+}  
+ 
+.navbar li{
+  padding-right:5px;
+  padding-top:10px;
+  
+  }
+
+
+
+
+  .navbar{
+  background-color:#000f89 !important;
+  z-index:999;
+   font-family:"tw cen mt";
+  font-size:17px;
+   font-weight: bold;
+   color:white;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:white !important;
+                }
+  
+
+
+.navbar-default .navbar-nav > li > a:hover{
+  background-color:#d6eef8 !important;
+  color:#000f89 !important;
+                }
+
+ .navbar-nav li.active > a:hover {
+ color:#000f89;
+}
+
+ @media only screen and (max-width: 1000px) {
+    
+    .navbar{
+      background-color:#000f89 !important;
+    }
+
+    .navbar-center,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    
+    .navbar-collapse.collapse {
+        display: none!important;
+        background-color:#000f89;
+    }
+    .navbar-nav {
+        float: none!important;
+    margin-top: 1.5px !important;
+     background-color:#000f89;
+  }
+  .navbar-nav>li {
+        float: none;
+    }
+    
+    .collapse.in{
+      display:block !important;
+  }
+}
+
+
+
+/* <!--  bellow css code for dropdown menu in main navbar-->*/
+
+ .dropdown-menu{
+  background-color:#d6eef8;
+  float:right;
+ }
+
+ 
+ .dropdown-menu> li>a:hover {
+ background-color:red;
+      }
+      
+ .dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+

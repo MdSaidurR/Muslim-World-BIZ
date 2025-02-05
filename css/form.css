@@ -1,0 +1,61 @@
+.error{ color: red; }
+
+     .success{ color: green;
+        font-size: 30px;
+        font-weight:bold;
+
+        }
+
+  body {
+   background-image: url("image/background.jpg");
+   
+ 
+    }
+        
+          
+input[type=text] {
+    height:30px;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #000f89;
+    
+}
+
+
+div.papri{ 
+padding-top:20px;
+
+
+}
+
+mwbiz h4,h5{
+   line-height: 0.9;
+       
+  }
+
+.btn{
+  padding-right:15px;
+  padding-left: 15px;
+}
+
+
+.contact{
+
+  border: 1px solid #000f89;
+  padding: 10px;
+  background-color: #e5e5e5 !important;
+}
+  
+
+  .delegate_form{
+
+  border: 1px solid #000f89;
+  padding: 10px;
+  background-color: #e5e5e5 !important;
+}
+  
+
+  
+
+  
+  

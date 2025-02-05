@@ -1,0 +1,125 @@
+.error {color: #FF0000;
+  font-size:16px;
+   }
+  
+  
+  
+  
+  
+  
+  
+  input[type=text] {
+    height:40px;
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #FFD700;
+    
+}
+input[type=submit] {
+    background-color:green;
+    width: 100px;
+}
+
+input[type=reset] {
+    background-color:yellow;
+    width: 100px;
+}
+
+
+
+input[type=radio] {
+    height:20px;
+    width: 20px;
+    
+    
+}
+
+
+#inputComment,#inputAward{
+	border:1px solid #FFD700;
+}
+
+textarea{
+border:1px solid #FFD700;
+
+} 
+body{
+font-size:16px;
+font-weight:bold;	
+}
+.nomination{
+	 box-shadow: 0 1px 1px #FFD700, inset 0 1px 0 #FFD700;
+	 padding:10px 10px 10px 10px;
+	 border:2px solid #FFD700;
+}
+
+.promo {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #FFD700;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.weda-meaasge{
+	text-align:justify;
+	box-shadow: 0 1px 1px #FFA500, inset 0 1px 0 #FFD700;
+	padding:10px 10px 10px 10px;
+}
+
+#Iframe-id{
+  max-width: 700px;
+  max-height: 100%; 
+  overflow: hidden;
+}
+
+.responsive-wrapper {
+  position: relative;
+  height: 0;    
+  
+}
+
+ 
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.set-padding {
+  padding: 20px;
+}
+
+
+.responsive-wrapper-wxh-700x800 {
+  padding-bottom: 120%;
+}
+
+
+
+
+.set-border {
+  border: 2px inset #4f4f4f;
+}
+.set-box-shadow { 
+  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
+  -moz-box-shadow: 4px 4px 14px #4f4f4f;
+  box-shadow: 4px 4px 14px #4f4f4f;
+}
+
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.right {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
