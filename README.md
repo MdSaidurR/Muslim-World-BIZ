@@ -1,2 +1,2 @@
 # Muslim-World-BIZ
-This is an event website developed using Bootstrap and PHP and it was developed in 2019. Website link : https://muslimworldbiz.com/
+This event website, developed using Bootstrap and PHP in 2019, provides a platform for event management. You can visit the website at https://muslimworldbiz.com/
